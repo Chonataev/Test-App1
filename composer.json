@@ -1,0 +1,19 @@
+{
+    "name": "murat/app",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Elmurat Chonataev",
+            "email": "adgjoed1@gmail.com"
+        }
+    ],
+    "autoload":{
+        "psr-4": {
+            "app\\": "./"
+        }
+    },
+    "require": {
+        "vlucas/phpdotenv": "^5.4"
+    }
+}
